@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --firstcolor: #5921f3;
+    --hovercolor: #3203b6;
+    --secondcolor: #847484;
+    --listcolor: #404040;
+    --protrackcolor: #c1b6fc;
+    --redcolor: red;
+    --fontsize1: 48px;
+    --fontsize2: 36px;
+    --fontsize3: 24px;
+    --fontsize4: 16px;
+    --fontsize5: 14px;
+    --fontsize6: 13px;
+    --fontsize7: 20px;
+    --fontsize8: 15px;
+    --fontwt1: 600;
+    --fontwt2: 500;
+    --fontwt3: 400;
+
+
+}
+
+.fontmenu {
+    font-size: var(--fontsize5);
+    font-weight: var(--fontwt2);
+}
+
+.fontsec {
+    font-size: var(--fontsize4);
+    font-weight: var(--fontwt3);
+    color: var(--secondcolor);
+}
+
+.fonth1 {
+    font-size: var(--fontsize1);
+    font-weight: var(--fontwt1);
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    width: 60%;
+    height: 4rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu ul li {
+    padding: 1rem;
+}
+
+.sec1 {
+    background-color: aliceblue;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.sec2 {
+    background-color: aliceblue;
+    width: 60%;
+    margin: auto;
+
+}
+
+.main {
+    width: 50%;
+    padding: 2%;
+}
+
+.sec1 .sidesocials {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo a:visited,
+.menu a:visited {
+    color: black;
+}
+
+.logo a:hover,
+.menu a:hover {
+    color: var(--firstcolor);
+}
+
+.menu a:active {
+    color: green;
+}
+
+.sidesocials a:visited {
+    color: var(--firstcolor);
+}
+
+.rightimg {
+    max-width: 17rem;
+}
+
+.rightimg img {
+    width: 100%;
+    border-radius: 75px 75px 140px 150px;
+}
+
+.btn {
+    padding: 16px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--firstcolor);
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: var(--hovercolor);
+}
+
+.maincont {
+    margin-top: 1.5rem;
+}
