@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; 
 }
 
 html {
@@ -36,6 +36,7 @@ html {
     --listcolor: #404040;
     --protrackcolor: #c1b6fc;
     --redcolor: red;
+    --bgcolor: #f7f7f7;
     --fontsize1: 48px;
     --fontsize2: 36px;
     --fontsize3: 24px;
@@ -47,6 +48,10 @@ html {
     --fontwt1: 600;
     --fontwt2: 500;
     --fontwt3: 400;
+}
+
+body {
+    background-color: var(--bgcolor);
 }
 
 .fontmenu {
@@ -75,8 +80,17 @@ html {
     line-height: 2.4rem;
 }
 
+header {
+    position: fixed;
+    height: 4rem;
+    width: 100vw;
+    background-color: var(--bgcolor);
+    z-index: 3;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.3);
+}
+
 .navbar {
-    background-color: white;
+    background-color: var(--bgcolor);
     display: flex;
     width: 60rem;
     height: 4rem;
@@ -379,19 +393,19 @@ html {
 }
 
 .skill_html_pb {
-    width: 80%;
+    width: 90%;
 }
 
 .skill_css_pb {
-    width: 73%;
-}
-
-.skill_sql_pb {
-    width: 70%;
+    width: 88%;
 }
 
 .skill_js_pb {
-    width: 40%;
+    width: 70%;
+}
+
+.skill_sql_pb {
+    width: 62%;
 }
 
 .csec,
@@ -497,7 +511,8 @@ html {
     display: flex;
     justify-content: space-between;
 }
-.edu_year .fa-calendar-days{
+
+.edu_year .fa-calendar-days {
     margin-left: 20px;
 }
 
@@ -531,10 +546,19 @@ html {
 } */
 
 .my_project_template {
+    background-color: white;
     border-radius: 3px;
     width: 35%;
     border-radius: 10px;
-    border: 1px solid var(--secondcolor);
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.3);
+    /* border: 1px solid var(--secondcolor); */
+    transition: all 0.2s ease;
+}
+
+.my_project_template:hover {
+    cursor: default;
+    box-shadow: 4px 8px 8px 0px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
 }
 
 .my_project_template img {
@@ -543,8 +567,18 @@ html {
 }
 
 .project_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: var(--fontsize4);
     font-weight: var(--fontwt1);
+    margin-bottom: 2px;
+}
+
+.project_title span {
+    font-size: 12px;
+    font-weight: var(--fontwt1);
+    color: #8928d8;
 }
 
 .project_description {
@@ -577,6 +611,7 @@ html {
     color: var(--firstcolor);
     font-size: var(--fontsize5);
     font-weight: var(--fontwt3);
+    transition: all 0.2s ease;
 }
 
 .project_box a:hover {
@@ -584,7 +619,7 @@ html {
 }
 
 .learn_more {
-    margin: 1rem 0;
+    margin-top: 1rem;
 }
 
 .learn_more .fa-solid {
@@ -882,9 +917,10 @@ footer {
         object-fit: cover;
     }
 
-    /* .my_project_template image{
-        width: 16rem;
-        margin-right: 2rem;
+    /* .my_project_template a,
+    .my_project_template a:visited {
+        text-decoration-line: none;
+        color: black;
     } */
 
     .project_box {
@@ -894,7 +930,8 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
     }
-    .learn_more .fa-solid{
+
+    .learn_more .fa-solid {
         padding-left: 2%;
     }
 
@@ -903,6 +940,7 @@ footer {
     }
 
     .project_title {
+        display: block;
         font-size: 18px;
         font-weight: 600;
     }
