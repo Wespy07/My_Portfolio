@@ -1100,6 +1100,7 @@ footer {
     }
 
     .menu {
+        display: none;
         font-size: 15px;
         /* background-color: bisque; */
         width: 35%;
