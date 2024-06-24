@@ -839,16 +839,16 @@ footer {
 
     .fonth1 {
         font-size: 35px;
-        font-weight: 600;
+        font-weight: 400;
     }
 
     .font_sub {
-        font-size: 22px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
     }
 
     .fontsec {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 400;
         width: 20rem;
     }
@@ -1100,7 +1100,7 @@ footer {
     }
 
     .menu {
-        display: none;
+        /* display: none; */
         font-size: 15px;
         /* background-color: bisque; */
         width: 35%;
@@ -1113,6 +1113,19 @@ footer {
         line-height: 0;
         /* place-items: center; */
     }
+    .menu ul a:nth-child(1),
+    .menu ul a:nth-child(2),
+    .menu ul a:nth-child(3),
+    .menu ul a:nth-child(4),
+    .menu ul a:nth-child(5),
+    .menu ul a:nth-child(6){
+        display: none;
+    }
+    .menu ul a:nth-child(7){
+        position: absolute;
+        right: 0;
+        top: 1.5rem;
+    }
 
     /* .company_box .line2_3 {
         flex-direction: row;
@@ -1121,6 +1134,7 @@ footer {
 
 @media screen and (max-width: 650px) {
     .navbar {
-        justify-content: start;
+        justify-content: space-between;
+        align-items: center;
     }
 }
