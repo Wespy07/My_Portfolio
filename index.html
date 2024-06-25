@@ -52,6 +52,7 @@
                         <li class="nav-contact">Contact</li>
                     </a>
                     <a class="theme-switch"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></a>
+                    <!-- <a class="hamburger">&#9776;</a> -->
                 </ul>
             </div>
         </div>
@@ -103,7 +104,7 @@
 
             <div class="rightimg">
                 <!-- My image (1) -->
-                <img src="assets/Images/my_img2.jpg">
+                <img src="assets/Images/avatar.jpg">
             </div>
         </section>
 
@@ -119,7 +120,7 @@
             </div>
             <div class="seccontainer">
                 <div class="sec2_img">
-                    <img src="assets/Images/my_img2.jpg">
+                    <img src="assets/Images/avatar.jpg">
                 </div>
                 <div class="seccontdata">
                     <div>
@@ -174,53 +175,56 @@
                             <div>5+ Months</div>
                         </div>
                     </div>
-                    <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                    <i class="uil uil-angle-down skills__arrow web-dev-arrow"></i>
                 </div>
 
-
-                <div class="skill_list skill_list1">
-                    <i class="fa-brands fa-html5"></i>
-                    <div class="language_Percent html">
-                        <div>HTML</div>
-                        <div>90%</div>
+                <div class="web-dev-skill-section hidden">
+                    <div class="skill_list skill_list1">
+                        <i class="fa-brands fa-html5"></i>
+                        <div class="language_Percent html">
+                            <div>HTML</div>
+                            <div>90%</div>
+                        </div>
+                    </div>
+                    <div class="progress_track">
+                        <div class="progress_bar skill_html_pb"></div>
+                    </div>
+    
+                    <div class="skill_list skill_list2">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <div class="language_Percent css">
+                            <div>CSS</div>
+                            <div>88%</div>
+                        </div>
+                    </div>
+                    <div class="progress_track">
+                        <div class="progress_bar skill_css_pb"></div>
+                    </div>
+    
+                    <div class="skill_list skill_list2">
+                        <i class="fa-brands fa-js"></i>
+                        <div class="language_Percent slq">
+                            <div>JavaScript</div>
+                            <div>70%</div>
+                        </div>
+                    </div>
+                    <div class="progress_track">
+                        <div class="progress_bar skill_js_pb"></div>
+                    </div>
+    
+                    <div class="skill_list skill_list2">
+                        <i class="fa-solid fa-database"></i>
+                        <div class="language_Percent javascript">
+                            <div>SQL</div>
+                            <div>62%</div>
+                        </div>
+                    </div>
+                    <div class="progress_track">
+                        <div class="progress_bar skill_sql_pb"></div>
                     </div>
                 </div>
-                <div class="progress_track">
-                    <div class="progress_bar skill_html_pb"></div>
-                </div>
 
-                <div class="skill_list skill_list2">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <div class="language_Percent css">
-                        <div>CSS</div>
-                        <div>88%</div>
-                    </div>
-                </div>
-                <div class="progress_track">
-                    <div class="progress_bar skill_css_pb"></div>
-                </div>
-
-                <div class="skill_list skill_list2">
-                    <i class="fa-brands fa-js"></i>
-                    <div class="language_Percent slq">
-                        <div>JavaScript</div>
-                        <div>70%</div>
-                    </div>
-                </div>
-                <div class="progress_track">
-                    <div class="progress_bar skill_js_pb"></div>
-                </div>
-
-                <div class="skill_list skill_list2">
-                    <i class="fa-solid fa-database"></i>
-                    <div class="language_Percent javascript">
-                        <div>SQL</div>
-                        <div>62%</div>
-                    </div>
-                </div>
-                <div class="progress_track">
-                    <div class="progress_bar skill_sql_pb"></div>
-                </div>
+                
 
                 <div class="skill_head cyber_security">
                     <i class="fa-solid fa-shield-halved"></i>
@@ -230,9 +234,9 @@
                             <div>4+ Months</div>
                         </div>
                     </div>
-                    <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                    <i class="uil uil-angle-down skills__arrow csec-arrow"></i>
                 </div>
-                <div class="csec">
+                <div class="csec hidden">
                     <ul>
                         <li>Network Types & Topology</li>
                         <li>Network Models (OSI, TCP/IP)</li>
@@ -261,9 +265,9 @@
                             <div>8+ Months</div>
                         </div>
                     </div>
-                    <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                    <i class="uil uil-angle-down skills__arrow data-analysis-arrow"></i>
                 </div>
-                <div class="da">
+                <div class="da hidden">
                     <ul>
                         <li>RDBMS</li>
                         <li>SQL - PostgreSQL</li>
@@ -285,9 +289,9 @@
                             <div>10+ Months</div>
                         </div>
                     </div>
-                    <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+                    <i class="uil uil-angle-down skills__arrow finance-arrow"></i>
                 </div>
-                <div class="fin">
+                <div class="fin hidden">
                     <ul>
                         <li>Capital Markets</li>
                         <li>Asset Allocation</li>
@@ -313,10 +317,15 @@
 
             <div class="work_and_edu">
                 <div class="work">
-                    <div class="wne_head">
-                        <i class="fa-solid fa-briefcase"></i>Work
+                    <div class="work-box">
+                        <div class="wne_head">
+                            <i class="fa-solid fa-briefcase"></i>Work
+                        </div>
+                        <div class="work-box-arrow">
+                            <i class="fa-solid fa-angle-down workbox-arrow"></i>
+                        </div>
                     </div>
-                    <div class="wne_box company_box">
+                    <div class="wne_box company_box hide-edu-box">
                         <ul>
                             <li>
                                 <div class="line1 title">IT Executive</div>
@@ -341,8 +350,15 @@
                 <div class="worknedu_separator"></div>
 
                 <div class="edu">
-                    <div class="wne_head"><i class="fa-solid fa-graduation-cap"></i>Education</div>
-                    <div class="wne_box Edu_box">
+                    <div class="edu-box-sec">
+                        <div class="wne_head">
+                            <i class="fa-solid fa-graduation-cap"></i>Education
+                        </div>
+                        <div class="edubox-arrow">
+                            <i class="fa-solid fa-angle-down edu-box-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="wne_box Edu_box hide-edu-box">
                         <ul>
                             <li>
                                 <div class="line1 course">MBA</div>
