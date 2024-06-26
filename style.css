@@ -31,6 +31,7 @@ html {
 
 :root {
     --my-purple-color: #6e57e0;
+    --my-name-color: #6e57e0;
     --firstcolor: #5921f3;
     --card-link-color: #5921f3;
     --hovercolor: #3203b6;
@@ -76,6 +77,7 @@ body.dark-mode {
     --element-color: #201b3a;
     --card-link-hover: #ff1493;
     --card-span-color: #00FFFF;
+    --my-name-color: #00FFFF;
     --header-shadow: 0px 4px 9px 0px #00FFFF;
     --footer-shadow: 0px -4px 9px 0px #00FFFF;
     --image-shadow: 0px 0px 16px 1px #00FFFF;
@@ -101,7 +103,11 @@ body.dark-mode {
 .fonth1 {
     color: var(--text-color);
     font-size: var(--fontsize1);
-    font-weight: var(--fontwt1);
+    font-weight: 400;
+}
+.fonth1 span {
+    color: var(--my-name-color);
+    font-weight: 600;
 }
 
 .font_sub {
