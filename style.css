@@ -1123,15 +1123,15 @@ footer {
     text-decoration: none;
     margin-top: 10px;
 }
-/* .hamburger{
+.hamburger{
     display: none;
-} */
+}
 /* responsiveness */
 @media(max-width: 1000px) {
 
-    /* .hamburger{
+    .hamburger{
         display: block;
-    } */
+    }
 
     .work-box-arrow,
     .edubox-arrow {
