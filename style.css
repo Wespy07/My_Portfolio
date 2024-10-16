@@ -20,7 +20,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--firstcolor);
+    background: #4a0fec;
     border-radius: 5px;
 }
 
