@@ -15,47 +15,47 @@ darkModeBtn.addEventListener('click', () => {
 })
 
 
-const webDevBox = document.querySelector('.webdev')
-const webdevArrow = document.querySelector('.web-dev-arrow')
-const webDevDetails = document.querySelector('.web-dev-skill-section')
+// const webDevBox = document.querySelector('.webdev')
+// const webdevArrow = document.querySelector('.web-dev-arrow')
+// const webDevDetails = document.querySelector('.web-dev-skill-section')
 
-webDevBox.addEventListener('click', () => {
-    webDevDetails.classList.toggle('hidden') 
-    webdevArrow.classList.toggle('rotate')  
-})
-
-
-
-const cyberSecBox = document.querySelector('.cyber_security')
-const cyberSecArrow = document.querySelector('.csec-arrow')
-const cyberSecDetails = document.querySelector('.csec')
-
-cyberSecBox.addEventListener('click', () => {
-    cyberSecDetails.classList.toggle('hidden') 
-    cyberSecArrow.classList.toggle('rotate')  
-})
+// webDevBox.addEventListener('click', () => {
+//     webDevDetails.classList.toggle('hidden') 
+//     webdevArrow.classList.toggle('rotate')  
+// })
 
 
 
-const dataAnalysisBox = document.querySelector('.data_analysis')
-const dataAnalysisArrow = document.querySelector('.data-analysis-arrow')
-const dataAnalysisDetails = document.querySelector('.da')
+// const cyberSecBox = document.querySelector('.cyber_security')
+// const cyberSecArrow = document.querySelector('.csec-arrow')
+// const cyberSecDetails = document.querySelector('.csec')
 
-dataAnalysisBox.addEventListener('click', () => {
-    dataAnalysisDetails.classList.toggle('hidden') 
-    dataAnalysisArrow.classList.toggle('rotate')  
-})
+// cyberSecBox.addEventListener('click', () => {
+//     cyberSecDetails.classList.toggle('hidden') 
+//     cyberSecArrow.classList.toggle('rotate')  
+// })
 
 
 
-const financeBox = document.querySelector('.finance')
-const financeArrow = document.querySelector('.finance-arrow')
-const financeDetails = document.querySelector('.fin')
+// const dataAnalysisBox = document.querySelector('.data_analysis')
+// const dataAnalysisArrow = document.querySelector('.data-analysis-arrow')
+// const dataAnalysisDetails = document.querySelector('.da')
 
-financeBox.addEventListener('click', () => {
-    financeDetails.classList.toggle('hidden') 
-    financeArrow.classList.toggle('rotate')  
-})
+// dataAnalysisBox.addEventListener('click', () => {
+//     dataAnalysisDetails.classList.toggle('hidden') 
+//     dataAnalysisArrow.classList.toggle('rotate')  
+// })
+
+
+
+// const financeBox = document.querySelector('.finance')
+// const financeArrow = document.querySelector('.finance-arrow')
+// const financeDetails = document.querySelector('.fin')
+
+// financeBox.addEventListener('click', () => {
+//     financeDetails.classList.toggle('hidden') 
+//     financeArrow.classList.toggle('rotate')  
+// })
 
 
 const workBox = document.querySelector('.work-box')
