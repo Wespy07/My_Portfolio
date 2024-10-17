@@ -490,7 +490,7 @@ header {
     align-items: center;
     border: 1px solid var(--my-name-color);
     border-radius: 10px;
-    padding: 15px 0;
+    padding: 15px 0 5px 0;
 }
 
 .frontend-skill {
@@ -1043,10 +1043,10 @@ footer {
     align-items: center;
 }
 .project-link-icon{
-    font-size: inherit;
+    font-size: var(--fontsize5);
     color: var(--card-link-color);
 }
-.fa-github{
+.fa-github, .fa-link{
     margin-right: 3px;
 }
 
@@ -1081,7 +1081,11 @@ button:hover::before {
     width: 100%;
 }
 
-
+.skill-tag-label{
+    color: var(--text-color);
+    margin-top: 7px;
+    font-weight: 600;
+}
 
 
 
@@ -1146,9 +1150,10 @@ button:hover::before {
         font-size: 1.5rem;
         padding: 0 2rem;
         margin: 7rem 1rem 0 1rem;
-        max-width: 60rem;
+        width: 81.5%;
+        margin-inline: auto;
         display: grid;
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
     }
 
     .fonth1 {
@@ -1190,7 +1195,7 @@ button:hover::before {
     }
 
     .seccontainer {
-        max-width: 22rem;
+        max-width: 81.5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1198,7 +1203,7 @@ button:hover::before {
     }
 
     .seccontdata {
-        width: 21rem;
+        width: 80%;
         /* background-color: aqua; */
         font-size: 15px;
         font-weight: 400;
@@ -1460,6 +1465,10 @@ button:hover::before {
     .skill_head .uil-angle-down {
         font-size: 22px;
     }
+
+    .fa-link, .project-desc p, .project-tags {
+        font-size: 10px;
+    }
 }
 
 @media(max-width: 650px) {
@@ -1467,12 +1476,34 @@ button:hover::before {
         justify-content: space-between;
         align-items: center;
     }
+    .tag {
+        flex: 100px;
+        flex-grow: inherit;
+    }
+    
 }
 
 @media(max-width: 730px) {
     .tag {
         padding: 10px;
         flex-wrap: wrap;
+    }
+    .project-container{
+        border-radius: 12px;
+        flex-direction: column;
+        width: 250px;
+        overflow: hidden;
+    }
+    .project-thumbnail{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .project-description-box{
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    .project-thumbnail img {
+        border-radius: 10px 10px 0 0;
     }
 
     .icon {
@@ -1482,5 +1513,8 @@ button:hover::before {
 
     .frontend-skill {
         text-align: center;
+    }
+    .skill-tag-label{
+        font-size: 12px;
     }
 }
