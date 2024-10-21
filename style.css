@@ -1062,12 +1062,15 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
-button::before {
+.project-links button::before,
+.mini-project-links button::before {
     margin-left: auto;
 }
 
-button::after,
-button::before {
+.project-links button::after,
+.project-links button::before,
+.mini-project-links button::after,
+.mini-project-links button::before {
     content: '';
     width: 0%;
     height: 2px;
@@ -1076,8 +1079,10 @@ button::before {
     transition: 0.5s;
 }
 
-button:hover::after,
-button:hover::before {
+.project-links button:hover::after,
+.project-links button:hover::before,
+.mini-project-links button:hover::after,
+.mini-project-links button:hover::before {
     width: 100%;
 }
 
