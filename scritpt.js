@@ -81,8 +81,8 @@ eduBox.addEventListener('click', () => {
 
 // hamburger
 
-const hamburgerToggle = document.querySelector('.hamburger')
+// const hamburgerToggle = document.querySelector('.hamburger')
 
-hamburgerToggle.addEventListener('click', () => {
-    console.log('hamburger clicked');
-})
+// hamburgerToggle.addEventListener('click', () => {
+//     console.log('hamburger clicked');
+// })
