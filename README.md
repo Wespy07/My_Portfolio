@@ -8,6 +8,4 @@
 
 **Live Site:** [Click Here](http://wespyportfolio.netlify.app/) to access it.
 
-![preview](https://github.com/Wespy07/My_Portfolio/assets/143990246/6b51d76f-3c5d-4c27-82e1-0ff190f0d4ce)
-
-
+![Screenshot 2024-11-19 153211](https://github.com/user-attachments/assets/37649533-1ba8-4fcd-a9ae-33a6b7bf3c28)
