@@ -1,4 +1,4 @@
-# My_portfolio
+# My Portfolio
 
 - This is my personal portfolio website that showcases my skills and my journey in a simple minimalistic and elegant design.
 - It is responsive for all screen sizes
